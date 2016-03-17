@@ -1,6 +1,7 @@
 # elasticsearch-kibana 
 
-It will give to you the capability to analyze any data set by using the searching/aggregation capabilities of Elasticseach and the visualization power of Kibana.
+Use the searching/aggregation capabilities of Elasticseach and the visualization power of Kibana.
+This compose will run with the latest version of elasticsearch and kibana images.
 
 Based on the official images:
 
@@ -14,18 +15,6 @@ Based on the official images:
 3. Clone this repository
 
 # Usage
-
-Define the elasticsearch version:
-
-```bash
-$ export ELASTICSEARCH_VERSION="latest"
-```
-
-Define the kibana version:
-
-```bash
-$ export KIBANA_VERSION="latest"
-```
 
 Start the stack using *docker-compose*:
 
